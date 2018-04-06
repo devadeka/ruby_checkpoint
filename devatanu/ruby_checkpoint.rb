@@ -50,7 +50,9 @@ friends = ["Chip Potts", "Cogsworth", "Lumière", "Mrs. Potts"]
 # "Belle is friends with Mrs. Potts"
 # Type your solution directly below this line:
 
-
+friends.each do |friend|
+  puts "Belle is friens with #{friend}"
+end
 
 
 # Question 4
