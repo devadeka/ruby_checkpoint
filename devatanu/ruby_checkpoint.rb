@@ -29,7 +29,11 @@ town = {
 # Type your solution directly below this line:
 
 
-
+town[:castle][:guests].push(
+  town[:residents].delete_at(
+    town[:residents].index("Belle")
+    )
+  )
 
 
 
